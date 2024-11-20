@@ -1,0 +1,7 @@
+C:\Users\cnani\OneDrive\Desktop\College\CP\Final Term\Scratches\Gameplay\GameTest2\GameTest2\bin\Debug\GameTest2.exe.config
+C:\Users\cnani\OneDrive\Desktop\College\CP\Final Term\Scratches\Gameplay\GameTest2\GameTest2\bin\Debug\GameTest2.exe
+C:\Users\cnani\OneDrive\Desktop\College\CP\Final Term\Scratches\Gameplay\GameTest2\GameTest2\obj\Debug\GameTest2.csproj.AssemblyReference.cache
+C:\Users\cnani\OneDrive\Desktop\College\CP\Final Term\Scratches\Gameplay\GameTest2\GameTest2\obj\Debug\GameTest2.csproj.CoreCompileInputs.cache
+C:\Users\cnani\OneDrive\Desktop\College\CP\Final Term\Scratches\Gameplay\GameTest2\GameTest2\obj\Debug\GameTest2.exe
+C:\Users\cnani\OneDrive\Desktop\College\CP\Final Term\Scratches\Gameplay\GameTest2\GameTest2\obj\Debug\GameTest2.pdb
+C:\Users\cnani\OneDrive\Desktop\College\CP\Final Term\Scratches\Gameplay\GameTest2\GameTest2\bin\Debug\GameTest2.pdb
