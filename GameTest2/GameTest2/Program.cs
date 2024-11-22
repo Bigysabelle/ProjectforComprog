@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics.Eventing.Reader;
@@ -136,12 +136,27 @@ namespace GameTest2
                                 }
                                 else if (LobbyRoom == "b")
                                 {
-                                    Console.WriteLine("Collection of Boxs and Props Dialogue");
-                                    Console.WriteLine("");
+                                    Console.WriteLine("Player: What are these?");
+                                    Console.WriteLine("Your curiosity piqued, and you approached the collection of peculiarly ordered boxes. Each one was stamped on the corner, a detail that " +
+                                        "only added to the mystery.");
+                                    Console.WriteLine("Player:  Imported from Portugal.");
+                                    Console.WriteLine("As you examined the boxes, you noticed one was slightly ajar. Inside were a deck of cards, a handful of handkerchiefs tied in a peculiar " +
+                                        "manner, metal hoops, and colorful cups neatly arranged. Above the chests, a cage of doves added to the enigma. But your keen eye caught a metal glint hidden " +
+                                        "by a potted plant. You reached for it and discovered a small, unnoticed object.");
+                                    Console.WriteLine("Player: Wait, isn't this a bullet of some kind?");
+                                    Console.WriteLine("Understanding this, you took the bullet as part of your evidence. You kept the bullet as proof.");
+                                    Console.WriteLine("You found a \"Bullet.\"");
                                 }
                                 else if (LobbyRoom == "c")
                                 {
-                                    Console.WriteLine("Inspect the Crime Scene Dialogue");
+                                    Console.WriteLine("You approached the crime scene again, where Christine lay lifeless before you, trying to organize your thoughts. You noticed a significant " +
+                                        "amount of blood at the scene, but among it, you spotted a white piece of paper stained with red. Despite the gruesome sight, you carefully picked up the " +
+                                        "paper. Upon closer inspection, it appeared to be a stamped letter.");
+                                    Console.WriteLine("Player: This letter seems to be of great significance, as Christine must have kept it personally.");
+                                    Console.WriteLine("The front of the letter bore a seal with a hawk crest logo, a majestic bird with its wings spread wide, and on the back, there was a handwritten " +
+                                        "text addressed to the recipient: \"To Christine.\"");
+                                    Console.WriteLine("You carefully tucked the letter into your inventory, fully aware that it might contain crucial information.");
+                                    Console.WriteLine("You have obtained a \"Blood-stained letter.\"");
                                 }
                                 else if (LobbyRoom == "d")
                                 {
@@ -265,7 +280,7 @@ namespace GameTest2
 
                         if (HallwayChoice == "a")
                         {
-                            Console.WriteLine("Inspect the toom for clues dialogue");
+                            Console.WriteLine("Inspect the room for clues dialogue");
                         }
                         else if (HallwayChoice == "b")
                         {
