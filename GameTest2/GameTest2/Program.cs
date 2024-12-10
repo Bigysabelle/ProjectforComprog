@@ -37,7 +37,7 @@ namespace GameTest2
                         Midgame();
                     }
                 }
-                else if (starter == "b") 
+                else if (starter == "b")
                 {
                     Console.WriteLine("Exiting the game...");
                     Console.WriteLine("Thank you for trying out the game!");
@@ -83,7 +83,7 @@ namespace GameTest2
                 "audiences eagerly waiting for the performance.\n");
             Console.ReadLine();
             //brushes hehe Gray = ░░ white = ██
-            Console.WriteLine("╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n"+
+            Console.WriteLine("╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n" +
                               "║░░      ░░░░                ██      ██████████      ██                      ░░░░      ░░░░                                                ║\n" +
                               "║  ░░  ░░  ░░            ████████████      ░░░░████████████                  ░░  ░░  ░░  ░░                                                ║\n" +
                               "║    ░░    ░░██████████████          ██████████░░░░░░░░░░██████████████████  ░░    ░░    ░░                                ██████          ║\n" +
@@ -117,7 +117,7 @@ namespace GameTest2
                               "║    ██  ██░░██      ██░░██  ██    ██  ░░  ░░  ░░  ░░  ██      ██    ░░  ░░                      ░░  ░░    ██    ██    ░░        ░░    ██  ║\n" +
                               "╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
             Console.WriteLine("{0}: I remember when this opera house was built; it has never had such a large audience. It was still a tiny performance crew with just a few supporters. " +
-                "How time has passed, huh?\n",playername);
+                "How time has passed, huh?\n", playername);
             Console.ReadLine();
 
             LeonGrandetProfile();
@@ -181,7 +181,7 @@ namespace GameTest2
                              "|                were childhood friends, too.                                                                                              |\n" +
                              "\\_________________________________________________________________________________________________________________________________________/\n");
             Console.ReadLine();
-            Console.WriteLine("{0}: It's an honor to meet you all.\n",playername);
+            Console.WriteLine("{0}: It's an honor to meet you all.\n", playername);
             Console.ReadLine();
 
             Console.WriteLine(" ___________________________________________________________________________________________________________________________________________\n" +
@@ -338,8 +338,41 @@ namespace GameTest2
                               "|   empty seats; the auditorium was packed with people, including some familiar faces from the city's elite.                                |\n" +
                               "|___________________________________________________________________________________________________________________________________________|\n");
             Console.ReadLine();
-
-            Console.WriteLine("Inserting Pixel art of auditorium(still in progress)");
+            //brushes hehe Gray = ░░ white = ██
+            Console.WriteLine("╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n" +
+                              "║██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████║\n" +
+                              "║░░░░░░      ░░░░░░      ░░░░░░██  ░░  ░░░░      ░░  ██░░██░░██░░██░░██░░██░░██░░██░░██  ░░      ░░░░  ░░  ██░░░░░░      ░░░░░░      ░░░░░░║\n" +
+                              "║░░░░░░      ░░░░░░  ████░░░░░░██░░  ░░░░      ░░░░  ██  ██  ██  ██  ██  ██  ██  ██  ██  ░░░░      ░░░░  ░░██░░░░░░████  ░░░░░░      ░░░░░░║\n" +
+                              "║░░░░░░    ██████████    ██░░░░██░░  ░░    ░░░░░░    ██                              ██    ░░░░░░    ░░  ░░██░░░░██    ██████████    ░░░░░░║\n" +
+                              "║░░░░░░████              ██░░░░██░░  ░░  ░░░░░░    ██                                  ██    ░░░░░░  ░░  ░░██░░░░██      ░░░░░░  ████░░░░░░║\n" +
+                              "║░░░░██                  ██░░░░██    ░░  ░░    ████  ██████████████████████████████████  ████    ░░  ░░    ██░░░░██      ░░░░░░      ██░░░░║\n" +
+                              "║░░░░██              ██████░░░░██  ░░  ░░░░  ██                                              ██  ░░░░  ░░  ██░░░░██████  ░░░░░░      ██░░░░║\n" +
+                              "║░░░░██    ██████████  ██░░██░░██░░  ░░░░  ██                                                  ██  ░░░░  ░░██░░██░░██  ██████████    ██░░░░║\n" +
+                              "║░░░░██████  ██░░██  ██████░░░░██░░░░    ██                                                      ██    ░░░░██░░░░██████  ██░░██  ██████░░░░║\n" +
+                              "║░░██░░██  ██████████    ░░░░░░██████████                                            ████          ██████████░░░░░░    ██████████  ██░░██░░║\n" +
+                              "║░░░░████████░░░░░░      ░░░░░░██░░░░██                                              ░░░░██          ██░░░░██░░░░░░      ░░░░░░  ██████░░░░║\n" +
+                              "║░░░░░░      ░░░░░░      ░░░░░░██████                                            ██░░      ██          ██████░░░░░░      ░░░░░░      ░░░░░░║\n" +
+                              "║░░░░░░      ░░░░░░      ░░░░░░██░░  ██                                      ████░░        ██        ██  ░░██░░░░░░      ░░░░░░      ░░░░░░║\n" +
+                              "║░░░░░░      ░░░░░░      ░░░░░░██░░  ██                                    ██████████████████      ██    ░░██░░░░░░      ░░░░░░      ░░░░░░║\n" +
+                              "║░░░░░░      ░░░░░░      ░░░░░░██  ░░  ██                                ██░░░░░░░░░░░░░░░░        ██  ░░  ██░░░░░░      ░░░░░░      ░░░░░░║\n" +
+                              "║░░░░░░      ░░░░░░      ░░░░░░██  ░░  ██                          ████    ░░            ░░        ██  ░░  ██░░░░░░      ░░░░░░      ░░░░░░║\n" +
+                              "║░░░░░░      ░░░░░░      ░░░░░░██  ░░  ██                          ░░░░    ██            ██        ██  ░░  ██░░░░░░      ░░░░░░      ░░░░░░║\n" +
+                              "║██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████║\n" +
+                              "║  ██  ██  ██  ██  ██  ██  ██  ██                                                                          ██  ██  ██  ██  ██  ██  ██  ██  ║\n" +
+                              "║  ██  ██  ██  ██  ██  ██  ██  ██                                                                          ██  ██  ██  ██  ██  ██  ██  ██  ║\n" +
+                              "║██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████║\n" +
+                              "║░░░░  ░░░░  ░░░░  ░░░░  ░░░░            ██░░  ░░    ██████  ████████  ██████  ████████    ░░  ░░██            ░░░░  ░░░░  ░░░░  ░░░░  ░░░░║\n" +
+                              "║░░░░  ░░░░  ░░░░  ████  ░░░░░░██████████    ░░  ░░  ░░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░  ░░  ░░  ░░██████████░░░░░░  ████  ░░░░  ░░░░  ░░░░║\n" +
+                              "║░░░░  ░░░░  ████  ░░░░░░  ██████  ░░  ░░  ░░                                                  ░░  ░░  ░░  ██████  ░░░░░░  ████  ░░░░  ░░░░║\n" +
+                              "║░░░░  ████  ░░░░░░████████  ░░  ░░  ░░  ░░    ████████  ██████  ████████  ██████  ████████  ░░  ░░  ░░  ░░  ░░  ████████░░░░░░  ████  ░░░░║\n" +
+                              "║████  ░░░░░░██████░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░    ░░  ░░  ░░  ░░  ░░  ░░  ░░██████░░░░░░  ████║\n" +
+                              "║░░░░░░  ██████  ░░  ░░  ░░  ░░  ░░  ░░                                                                  ░░  ░░  ░░  ░░  ░░  ██████  ░░░░░░║\n" +
+                              "║    ██████░░  ░░  ░░  ░░  ░░  ░░  ░░    ██████  ████████  ██████  ████████  ██████  ████████  ██████  ░░  ░░  ░░  ░░  ░░  ░░  ░░██████    ║\n" +
+                              "║████░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░  ░░░░░░    ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░████║\n" +
+                              "║  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░                                                                          ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ║\n" +
+                              "║░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░    ████████  ██████  ████████  ██████  ████████  ██████  ████████  ██████    ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░║\n" +
+                              "║  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░░░░  ░░░░░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ░░  ║\n" +
+                              "╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
             Console.WriteLine(" ___________________________________________________________________________________________________________________________________________\n" +
                               "|                                                                                                                                           |\n" +
                               "|   As the curtains began to rise, two musicians appeared on stage and started playing their instruments. Their music's melody was beautiful|\n" +
@@ -348,8 +381,6 @@ namespace GameTest2
                               "|   throwing roses onto the stage in appreciation, their faces lit up with joy and admiration.                                              |\n" +
                               "|___________________________________________________________________________________________________________________________________________|\n");
             Console.ReadLine();
-
-            Console.WriteLine("Inserting Black out pixel art(Still in progress)");
             Console.WriteLine(" ___________________________________________________________________________________________________________________________________________\n" +
                               "|                                                                                                                                           |\n" +
                               "|   Then, the lights suddenly went out, and two distinct sounds resembling gunshots set off a wave of panic in the theater. Engulfed in     |\n" +
@@ -360,18 +391,50 @@ namespace GameTest2
             Console.ReadLine();
             Console.WriteLine(" ___________________________________________________________________________________________________________________________________________\n" +
                               "|                                                                                                                                           |\n" +
-                              "|   While everyone is quivering in fear and panic inside the auditorium, you manage to go to the lobby. You tried to walk to the entrance   |\n"+
-                              "|   hall but suddenly felt a lump on your feet. It was not an object; instead, it was something unusual yet heavy.                          |\n"+
+                              "|   While everyone is quivering in fear and panic inside the auditorium, you manage to go to the lobby. You tried to walk to the entrance   |\n" +
+                              "|   hall but suddenly felt a lump on your feet. It was not an object; instead, it was something unusual yet heavy.                          |\n" +
                               "|___________________________________________________________________________________________________________________________________________|\n");
             Console.ReadLine();
-
-            Console.WriteLine("Inserting Lobby with ded body pixel art(Still in progress)");
+            //brushes hehe Gray = ░░ white = ██
+            Console.WriteLine("╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n" +
+                              "║████                                    ████      ██                ████                ██      ████      ░░      ░░░░      ░░            ║\n" +
+                              "║████                                    ██░░██    ██                ████                ██    ██░░██      ░░    ██░░░░██    ░░            ║\n" +
+                              "║████                                    ██░░░░██  ██                                    ██  ██░░░░██      ██  ██  ░░░░  ██  ██            ║\n" +
+                              "║                                        ██  ░░░░████        ██      ████      ██        ████░░░░  ██        ████  ████  ████            ░░║\n" +
+                              "║████      ░░░░                          ██    ░░░░██      ░░░░      ░░░░      ░░░░      ██░░░░    ██            ██    ██                ██║\n" +
+                              "║░░░░      ░░░░                          ██      ░░██      ░░░░    ██░░░░██    ░░░░      ██░░      ██              ████                  ██║\n" +
+                              "║░░░░██    ░░░░                          ██        ██    ██  ██  ██  ░░░░  ██  ██  ██    ██        ██                                  ░░░░║\n" +
+                              "║░░░░  ██  ██  ██                        ██        ██      ██  ████  ████  ████  ██      ██        ██                                  ████║\n" +
+                              "║████  ████  ██                          ██        ██              ██    ██              ██        ██        ██            ██          ████║\n" +
+                              "║    ██                ████████          ██        ██                ████                ██        ██        ░░            ░░        ░░░░░░║\n" +
+                              "║████                ██      ████        ██        ██                                    ██        ██        ░░            ░░      ░░██████║\n" +
+                              "║                              ░░        ██        ██                                    ██        ██        ██            ██      ████████║\n" +
+                              "║                              ░░        ██        ██                                    ██        ██░░░░  ██  ░░░░░░░░░░░░  ██  ░░░░░░░░░░║\n" +
+                              "║████████████                ░░░░        ██        ██                                    ██        ██░░░░  ██  ████████████  ██  ░░░░░░░░░░║\n" +
+                              "║            ██              ██          ██        ██                                    ██        ██░░    ██  ████████████  ██    ░░░░░░░░║\n" +
+                              "║  ░░  ░░    ██            ██████████    ██░░      ██                                    ██      ░░██░░  ██  ░░░░░░░░░░░░░░░░  ██  ░░░░░░░░║\n" +
+                              "║    ░░      ██            ██      ░░    ██░░░░    ██                                    ██    ░░░░██░░  ██  ████████████████  ██  ░░░░░░░░║\n" +
+                              "║      ░░    ██            ████      ░░  ████░░░░  ██                                    ██  ░░░░████░░  ██  ████████████████  ██    ░░░░░░║\n" +
+                              "║            ██              ████    ░░  ██  ██░░░░██                                    ██░░░░██  ██  ██  ░░░░░░░░░░░░░░░░░░░░    ██  ░░░░║\n" +
+                              "║████████████  ████            ██        ██    ██░░██                                    ██░░██    ██  ██  ████████████████████  ██    ░░░░║\n" +
+                              "║            ██    ██  ████████████████  ██      ████                                    ████      ██  ██  ████████████████████  ██    ░░░░║\n" +
+                              "║            ██    ██    ██        ██    ██        ██                                    ██        ████  ░░░░░░░░░░░░░░░░░░░░░░░░  ██    ░░║\n" +
+                              "║            ██    ██    ██        ██    ██        ██                                    ██        ████  ████████████████████████  ██    ░░║\n" +
+                              "║██████████████    ██    ██        ██    ████████████                                    ██████████████  ████████████████████████  ██    ░░║\n" +
+                              "║            ██    ██      ████████    ██          ████████████████████████████████████████          ██                                    ║\n" +
+                              "║██████████████████                      ██████████                                        ██████████    ░░                    ░░          ║\n" +
+                              "║                                                                                                          ░░░░░░░░░░░░░░░░░░░░            ║\n" +
+                              "║░░░░░░░░░░░░░░░░░░░░░░░░                                                                                  ░░                ░░            ║\n" +
+                              "║                  ░░                                                                                      ░░  ░░░░░░░░░░░░  ░░            ║\n" +
+                              "║░░░░░░░░░░░░░░░░░░░░░░░░                                                                                  ░░  ░░        ░░  ░░            ║\n" +
+                              "║                  ░░                                                                                      ░░  ░░  ░░░░  ░░  ░░            ║\n" +
+                              "╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
             Console.WriteLine(" ___________________________________________________________________________________________________________________________________________\n" +
                               "|                                                                                                                                           |\n" +
                               "|   Suddenly, the chaos came to an end. The lights turned on, revealing Earl standing in the lobby, his face a mask of shock. Following his |\n" +
-                              "|   gaze, you looked down and saw a sight that would haunt you forever: a pale woman's lifeless body, lying still—a stark contrast to the   |\n"+
+                              "|   gaze, you looked down and saw a sight that would haunt you forever: a pale woman's lifeless body, lying still—a stark contrast to the   |\n" +
                               "|   previously bustling theater. You struggled to process what had just happened when, without warning, the auditorium doors opened.        |\n" +
-                              "|   Everyone turned to look at you near the body, and the air was filled with screams and surprise gasps. Horror and sorrow permeated your  |\n"+
+                              "|   Everyone turned to look at you near the body, and the air was filled with screams and surprise gasps. Horror and sorrow permeated your  |\n" +
                               "|   heart and mind, not knowing what to do.                                                                                                 |\n" +
                               "|___________________________________________________________________________________________________________________________________________|\n");
             Console.ReadLine();
@@ -393,7 +456,7 @@ namespace GameTest2
             Console.WriteLine(" ___________________________________________________________________________________________________________________________________________\n" +
                               "|                                                                                                                                           |\n" +
                               "|   The detective's assistant urgently summoned him again, prompting the detective to rush out in apparent concern, leaving everyone behind |\n" +
-                              "|   in the theater. The entrance door was heavily guarded, and tension rose as suspicions grew among the group. Silvio Addams appeared      |\n"+
+                              "|   in the theater. The entrance door was heavily guarded, and tension rose as suspicions grew among the group. Silvio Addams appeared      |\n" +
                               "|   worried about Merida while Merida Lakes stared intently at the table. Victor maintained an expressionless demeanor as he listened to    |\n" +
                               "|   Julio's anxious pleas, and Leon stood nearby, deep in thought.                                                                          |\n" +
                               "|___________________________________________________________________________________________________________________________________________|\n");
@@ -402,161 +465,484 @@ namespace GameTest2
         }
         static void Midgame()
         {
-            Console.WriteLine("You realized that you couldn't go home without uncovering the killer's identity, especially since you were the prime suspect in the case. " +
-                        "Determined to clear your name, you decided to take action. It was now 10:00 AM, and everyone was dispersing in the theater to carry out various tasks and " +
-                        "enjoy some free time.However, you chose to investigate to prove your innocence.");
+            Console.WriteLine("╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n" +
+                              "║You realized that you couldn't go home without uncovering the killer's identity, especially since you were the prime suspect in the case. ║\n" +
+                              "║Determined to clear your name, you decided to take action. It was now 10:00 AM, and everyone was dispersing in the theater to carry out   ║\n" +
+                              "║various tasks and enjoy some free time.However, you chose to investigate to prove your innocence.                                         ║\n" +
+                              "╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
             Console.ReadLine();
-            int room = 1;
+            int room = 1, hour=10,minutes=0;
+            Random random = new Random();
             int gamephase = 1;
-
+            string[] Inventory = new string [27];
+            string LobbyChoice, LobbyRoom, LobbyInterrogation;
+            string TimeReader = "AM",Minutereader="";
+            
             while (gamephase == 1)
             {
                 if (room == 1) //Code of the room variable: (1=lobby, 2=Auditorium, 3=Hallway, 4=GeneralDirectorOffice, 5=PracticeRoom, 6=Generator, 7=Backstage)
                 {//This is the code for lobby
                     while (room == 1)
                     {
-                        Console.WriteLine("\nYou find yourself in the dimly lit lobby, where the air is thick with intrigue and tension. The distant murmur of your colleagues " +
-                            "echoes from various rooms, each one a potential source of vital information. You spot Julio and Earl in the lobby, still engaged in conversation. " +
-                            "Although the police have already attended to the body, the crime scene remains rich with opportunities for investigation. The chance to uncover " +
-                            "crucial clues is too significant to ignore. With determination in your heart, what will you do first?");
-                        Console.WriteLine("\na) Inspect the room for clues\nb) Interrogate people\nc) Enter a different room\nd) Check Inventory");
+                        LobbyPicture();
+                        Console.WriteLine("╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n" +
+                                          "║You find yourself in the dimly lit lobby, where the air is thick with intrigue and tension. The distant murmur of your colleagues echoes  ║\n"+
+                                          "║from various rooms, each one a potential source of vital information. You spot Julio and Earl in the lobby, still engaged in conversation.║\n" +
+                                          "║Although the police have already attended to the body, the crime scene remains rich with opportunities for investigation. The chance to   ║\n" +
+                                          "║uncover crucial clues is too significant to ignore. With determination in your heart, what will you do first?                             ║\n" +
+                                          "╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
+                        Console.WriteLine("\n\ta) Inspect the room for clues\n\tb) Interrogate people\n\tc) Enter a different room\n\td) Check Inventory\n");
                         Console.Write("\nAction: ");
-                        string LobbyChoice = Console.ReadLine();
+                        LobbyChoice = Console.ReadLine();
 
                         if (LobbyChoice == "a")
                         {
-                            Console.WriteLine("\nIn the dimly lit lobby, the atmosphere is thick with intrigue as a table and plush sofas are carefully positioned near the entrance to the " +
-                                "grand auditorium. The table is strewn with scattered files, resembling a trail of breadcrumbs that beckons you to uncover the mystery hidden within their" +
-                                "pages.To the far left, nestled against the hallway, stands a haphazard collection of boxes and colorful props, all gathered near the wide staircase leading " +
-                                "up to the second balcony, hinting at stories waiting to be told. Dominating the lobby's center, the crime scene is marked by an air of urgency and suspense," +
-                                " a complex puzzle that requires keen eyes to piece together the clues.");
+                            Console.WriteLine("┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\n" +
+                                              "|In the dimly lit lobby, the atmosphere is thick with intrigue as a table and plush sofas are carefully positioned near the entrance to the|\n" +
+                                              "|grand auditorium. The table is strewn with scattered files, resembling a trail of breadcrumbs that beckons you to uncover the mystery     |\n" +
+                                              "|hidden within their pages.To the far left, nestled against the hallway, stands a haphazard collection of boxes and colorful props, all    |\n" +
+                                              "|gathered near the wide staircase leading up to the second balcony, hinting at stories waiting to be told. Dominating the lobby's center,  |\n" +
+                                              "|the crime scene is marked by an air of urgency and suspense, a complex puzzle that requires keen eyes to piece together the clues.        |\n" +
+                                              "└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\n");
                             while (LobbyChoice == "a")
                             {
-                                Console.WriteLine("\nWhere will your curiosity lead you?");
-                                Console.WriteLine("a) Table and Plush Sofas\nb) Collection of Boxes and Props\nc) Inspect the Crime Scene\nd) Back");
-                                Console.Write("\nAction:");
-                                string LobbyRoom = Console.ReadLine(); //if its <location>Room variable, it indicates the player is exploring a specific room/spot inside the location
+                                Console.WriteLine("Where will your curiosity lead you?");
+                                Console.WriteLine("\n\ta) Table and Plush Sofas\n\tb) Collection of Boxes and Props\n\tc) Inspect the Crime Scene\n\td) Back\n");
+                                Console.Write("Action:");
+                                LobbyRoom = Console.ReadLine(); //if its <location>Room variable, it indicates the player is exploring a specific room/spot inside the location
 
                                 if (LobbyRoom == "a")
                                 {
                                     //brushes hehe Gray = ░░ white = ██
-                                    Console.WriteLine("╔══════════════════════════════════════════════════════════════════════╗\n" +
-                                                      "║                                  ██        ░░░░░░██░░░░░░██░░██      ║\n" +
-                                                      "║    ██████                        ██          ░░░░░░████░░██░░██      ║\n" +
-                                                      "║      ████░░                      ██              ░░░░██░░░░░░██      ║\n" +
-                                                      "║      ░░░░░░                  ██  ██                ░░░░░░░░░░██  ██  ║\n" +
-                                                      "║    ░░░░                      ████  ██████████████████████████  ████  ║\n" +
-                                                      "║  ░░                              ██                          ██      ║\n" +
-                                                      "║████                              ████                      ████      ║\n" +
-                                                      "║██                                                                    ║\n" +
-                                                      "║██      ████                                                          ║\n" +
-                                                      "║██    ░░████      ████████████████  ████████████████                  ║\n" +
-                                                      "║██░░░░░░░░██    ██      ░░░░░░░░░░██░░░░░░░░░░░░░░░░██                ║\n" +
-                                                      "║████    ░░██    ██      ██░░░░░░░░██    ░░░░██░░░░░░██                ║\n" +
-                                                      "║░░              ██        ██░░░░░░██      ██░░░░░░░░██                ║\n" +
-                                                      "║░░              ██          ░░░░░░██          ░░░░░░██                ║\n" +
-                                                      "║░░              ██          ░░░░░░██            ░░░░██                ║\n" +
-                                                      "║░░              ██            ░░░░██              ░░██                ║\n" +
-                                                      "║████        ██████████████████████████████████████████████            ║\n" +
-                                                      "║████████  ██░░░░██                ░░░░░░░░░░░░░░░░░░██░░░░██          ║\n" +
-                                                      "║░░░░████  ██  ░░██                      ░░░░░░░░░░░░██  ░░██          ║\n" +
-                                                      "║░░░░██    ██    ██████████████████████████████████████  ░░██          ║\n" +
-                                                      "║░░████    ██    ██                          ░░░░░░░░██    ██          ║\n" +
-                                                      "║░░██      ██    ██                                ░░██    ██          ║\n" +
-                                                      "║░░██      ██████████████████████████████████████████████████          ║\n" +
-                                                      "║  ████                    ██████████████████                          ║\n" +
-                                                      "║  ████░░██░░██░░  ████████    ░░░░░░░░░░░░░░████████  ██░░██░░██░░██  ║\n" +
-                                                      "║      ██░░  ░░  ██              ░░░░░░░░░░░░░░░░░░░░██░░  ░░  ░░      ║\n" +
-                                                      "║      ████░░  ██                      ░░░░░░░░░░░░░░░░██░░  ░░██░░██  ║\n" +
-                                                      "║    ████░░  ░░██                            ░░░░░░░░░░██  ░░  ░░      ║\n" +
-                                                      "║██████░░██░░  ░░██                            ░░░░░░██░░░░  ░░██░░██  ║\n" +
-                                                      "║        ░░  ░░  ░░██████████              ██████████░░░░  ░░  ░░      ║\n" +
-                                                      "║    ██░░██░░  ░░  ░░░░░░░░░░██████████████░░░░░░░░░░░░░░░░  ░░██░░██  ║\n" +
-                                                      "║        ░░  ░░  ░░  ░░    ████          ████  ░░  ░░  ░░  ░░  ░░      ║\n" +
-                                                      "╚══════════════════════════════════════════════════════════════════════╝");
-
-                                    Console.SetCursorPosition(75, 1);
-                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐");
-                                    Console.SetCursorPosition(75, 2);
-                                    Console.WriteLine("|As you approached the table, your eyes were drawn to the plush sofas  |");
-                                    Console.SetCursorPosition(75, 3);
-                                    Console.WriteLine("|where Merida and Silvio sat. Unexpectedly, a file lay abandoned on the|");
-                                    Console.SetCursorPosition(75, 4);
-                                    Console.WriteLine("|table, piquing your curiosity. You couldn't resist picking it up.     |");
-                                    Console.SetCursorPosition(75, 5);
-                                    Console.WriteLine("└──────────────────────────────────────────────────────────────────────┘");
-                                    Console.SetCursorPosition(75, 6);
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you approached the table, your eyes were drawn to the plush sofas  |\n" +
+                                                      "|where Merida and Silvio sat. Unexpectedly, a file lay abandoned on the|\n" +
+                                                      "|table, piquing your curiosity. You couldn't resist picking it up.     |\n"+
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
                                     Console.ReadLine();
-
-                                    Console.SetCursorPosition(75, 7);
-                                    Console.WriteLine("                             ___________________________________________");
-                                    Console.SetCursorPosition(75, 8);
-                                    Console.WriteLine("                            | A detective file?                         |");
-                                    Console.SetCursorPosition(75, 9);
-                                    Console.WriteLine("                             ----------------------------------------\\/-");
-                                    Console.SetCursorPosition(75, 10);
+                                    Console.WriteLine("                             ___________________________________________\n"+
+                                                      "                            | A detective file?                         |\n"+
+                                                      "                             ----------------------------------------v--");
                                     Console.ReadLine();
-
-                                    Console.SetCursorPosition(75, 11);
-                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐");
-                                    Console.SetCursorPosition(75, 12);
-                                    Console.WriteLine("|You flipped open the cover to reveal a draft report meticulously      |");
-                                    Console.SetCursorPosition(75, 13);
-                                    Console.WriteLine("|detailing the investigation into Christine's mysterious death. Though |");
-                                    Console.SetCursorPosition(75, 14);
-                                    Console.WriteLine("|still a work in progress, the report brimmed with the detective's     |");
-                                    Console.SetCursorPosition(75, 15);
-                                    Console.WriteLine("|insights and observations that promised to be a valuable reference in |");
-                                    Console.SetCursorPosition(75, 16);
-                                    Console.WriteLine("|the future.                                                           |");
-                                    Console.SetCursorPosition(75, 17);
-                                    Console.WriteLine("└──────────────────────────────────────────────────────────────────────┘");
-                                    Console.SetCursorPosition(75, 18);
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n"+
+                                                      "|You flipped open the cover to reveal a draft report meticulously      |\n"+
+                                                      "|detailing the investigation into Christine's mysterious death. Though |\n"+
+                                                      "|still a work in progress, the report brimmed with the detective's     |\n"+
+                                                      "|insights and observations that promised to be a valuable reference in |\n"+
+                                                      "|the future.                                                           |\n"+
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
                                     Console.ReadLine();
-
-                                    Console.SetCursorPosition(75, 19);
                                     Console.WriteLine("           You found \"Detective's File Case Report.\"");
-                                    Console.SetCursorPosition(75, 20);
                                     Console.ReadLine();
-                                    Console.SetCursorPosition(75, 34);
+
+                                    Inventory[0] = "> (0204) Detective's File Case Report"; //Detective Case Report Clue
+
+                                    minutes += random.Next(1, 3);
+                                    if(minutes>=60)
+                                    {
+                                        hour += 1;
+                                        minutes = minutes-60;
+                                    }
+                                    if(hour>12)
+                                    {
+                                        hour = hour-12;
+                                        TimeReader = "PM";
+                                    }
+                                    if (minutes < 10)
+                                    {
+                                        Minutereader = "0" + minutes;
+                                       
+                                    }
+                                    else
+                                    {
+                                        Minutereader = minutes.ToString();
+                                    }
+                                    Console.WriteLine("Current Time: " + hour + ":" + Minutereader + TimeReader);
+
+
+
                                 }
                                 else if (LobbyRoom == "b")
                                 {
-                                    Console.WriteLine("Player: What are these?");
-                                    Console.WriteLine("Your curiosity piqued, and you approached the collection of peculiarly ordered boxes. Each one was stamped on the corner, a detail that " +
-                                        "only added to the mystery.");
-                                    Console.WriteLine("Player:  Imported from Portugal.");
-                                    Console.WriteLine("As you examined the boxes, you noticed one was slightly ajar. Inside were a deck of cards, a handful of handkerchiefs tied in a peculiar " +
-                                        "manner, metal hoops, and colorful cups neatly arranged. Above the chests, a cage of doves added to the enigma. But your keen eye caught a metal glint hidden " +
-                                        "by a potted plant. You reached for it and discovered a small, unnoticed object.");
-                                    Console.WriteLine("Player: Wait, isn't this a bullet of some kind?");
-                                    Console.WriteLine("Understanding this, you took the bullet as part of your evidence. You kept the bullet as proof.");
-                                    Console.WriteLine("You found a \"Bullet.\"");
+                                    Console.WriteLine("You: What are these?");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Your curiosity piqued, and you approached the collection of peculiarly|\n" +
+                                                      "|ordered boxes. Each one was stamped on the corner, a detail that only |\n" +
+                                                      "|added to the mystery.                                                 |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("                                       ________________________________\n" +
+                                                      "                                      |Player:  Imported from Portugal.|\n" +
+                                                      "                                       -----------------------------v--");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you examined the boxes, you noticed one was slightly ajar. Inside  |\n" +
+                                                      "|were a deck of cards, a handful of handkerchiefs tied in a peculiar   |\n" +
+                                                      "|manner, metal hoops, and colorful cups neatly arranged. Above the     |\n" +
+                                                      "|chests, a cage of doves added to the enigma. But your keen eye caught |\n" +
+                                                      "|a metal glint hidden by a potted plant. You reached for it and        |\n" +
+                                                      "|discovered a small, unnoticed object.                                 |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("                                _______________________________________\n" +
+                                                      "                               |Wait, isn't this a bullet of some kind?|\n" +
+                                                      "                                ------------------------------------v--");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Understanding this, you took the bullet as part of your evidence. You |\n" +
+                                                      "|kept the bullet as proof.                                             |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("                         You found a \"Bullet.\""); //bullet clue
+                                    Console.ReadLine();
+                                    Inventory[1] = "> (7823) Bullet";
+                                    minutes += random.Next(1, 3);
+                                    if (minutes >= 60)
+                                    {
+                                        hour += 1;
+                                        minutes = minutes - 60;
+                                    }
+                                    if (hour > 12)
+                                    {
+                                        hour = hour - 12;
+                                        TimeReader = "PM";
+                                    }
+                                    if (minutes < 10)
+                                    {
+                                        Minutereader = "0" + minutes;
+
+                                    }
+                                    else
+                                    {
+                                        Minutereader = minutes.ToString();
+                                    }
+                                    Console.WriteLine("Current Time: " + hour + ":" + Minutereader + TimeReader);
                                 }
                                 else if (LobbyRoom == "c")
                                 {
-                                    Console.WriteLine("You approached the crime scene again, where Christine lay lifeless before you, trying to organize your thoughts. You noticed a significant " +
-                                        "amount of blood at the scene, but among it, you spotted a white piece of paper stained with red. Despite the gruesome sight, you carefully picked up the " +
-                                        "paper. Upon closer inspection, it appeared to be a stamped letter.");
-                                    Console.WriteLine("Player: This letter seems to be of great significance, as Christine must have kept it personally.");
-                                    Console.WriteLine("The front of the letter bore a seal with a hawk crest logo, a majestic bird with its wings spread wide, and on the back, there was a handwritten " +
-                                        "text addressed to the recipient: \"To Christine.\"");
-                                    Console.WriteLine("You carefully tucked the letter into your inventory, fully aware that it might contain crucial information.");
-                                    Console.WriteLine("You have obtained a \"Blood-stained letter.\"");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You approached the crime scene again, where Christine lay lifeless    |\n" +
+                                                      "|before you, trying to organize your thoughts. You noticed a           |\n" +
+                                                      "|significant amount of blood at the scene, but among it, you spotted a |\n" +
+                                                      "|white piece of paper stained with red. Despite the gruesome sight, you|\n" +
+                                                      "|carefully picked up the paper. Upon closer inspection, it appeared to |\n" +
+                                                      "|be a stamped letter.                                                  |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("           ____________________________________________________________\n" +
+                                                      "          |This letter seems to be of great significance, as Christine |\n" +
+                                                      "          |must have kept it personally.                               |\n" +
+                                                      "           ---------------------------------------------------------v--");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|The front of the letter bore a seal with a hawk crest logo, a majestic|\n" +
+                                                      "|bird with its wings spread wide, and on the back, there was a         |\n" +
+                                                      "|handwritten text addressed to the recipient: \"To Christine.\"        |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You carefully tucked the letter into your inventory, fully aware that |\n" +
+                                                      "|it might contain crucial information.                                 |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("            You have obtained a \"Blood-stained letter.\"");
+                                    Console.ReadLine();
+                                    Inventory[2] = "> (8203) Blood-stained letter";//Blood-Stained Letter Clue
+                                    minutes += random.Next(1, 3);
+                                    if (minutes >= 60)
+                                    {
+                                        hour += 1;
+                                        minutes = minutes - 60;
+                                    }
+                                    if (hour > 12)
+                                    {
+                                        hour = hour - 12;
+                                        TimeReader = "PM";
+                                    }
+                                    if (minutes < 10)
+                                    {
+                                        Minutereader = "0" + minutes;
+
+                                    }
+                                    else
+                                    {
+                                        Minutereader = minutes.ToString();
+                                    }
+                                    Console.WriteLine("Current Time: " + hour + ":" + Minutereader + TimeReader);
                                 }
                                 else if (LobbyRoom == "d")
                                 {
+                                    Console.WriteLine("\nReturning Back...\n");
+                                    Console.ReadLine();
                                     break;
                                 }
                                 else
                                 {
                                     Console.WriteLine("\nKindly input either of the choices");
+                                    Console.ReadLine();
                                 }
                             }
                         }
                         else if (LobbyChoice == "b") //I forgot to add Earl and Victor in the SCENE T-T so I added a new choice so that the player can inquire them
                         {
-                            Console.WriteLine("Interrogating People");
+                            Console.WriteLine("┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\n" +
+                                              "|As you entered the lobby, your gaze was drawn to Earl and Julio, who stood a few paces away, engaged in a hushed conversation. The        |\n" +
+                                              "|atmosphere was thick with tension, contrasting sharply between the two. Julio's brow was furrowed, his body language tight and anxious, as|\n" +
+                                              "|if wrestling with an inner conflict. In stark contrast, Earl maintained an emotionless facade, his expression blank and mysterious, giving|\n" +
+                                              "|nothing away.                                                                                                                             |\n" +
+                                              "└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘");
+                            Console.ReadLine();
+                            Console.WriteLine("┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\n" +
+                                              "|It was clear that whatever was brewing between them held the potential for crucial information, and the uncertainty of their thoughts only|\n" +
+                                              "|heightened your curiosity. Realizing the moment's importance, you steeled yourself and decided to approach them, ready to initiate a      |\n" +
+                                              "|conversation.                                                                                                                             |\n" +
+                                              "└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘");
+                            Console.ReadLine();
+                            Console.WriteLine(" ______\n" +
+                                              "|Hello.|\n" +
+                                              " -v----");
+                            Console.ReadLine();
+                            Console.WriteLine("┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\n" +
+                                              "|Both men turned toward you, their interest piqued by your unexpected arrival. They greeted you with mild curiosity. Now, the choice lay   |\n" +
+                                              "|before you:                                                                                                                               |\n" +
+                                              "└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘");
+                            Console.ReadLine();
+                            while (LobbyChoice == "b") //Interrogation on earl and victor
+                            {
+                                Console.WriteLine("Who would you like to engage with first?");
+                                Console.WriteLine("\n\ta) Julio Lopez\n\tb) Earl Victor\n\tc) Nevermind");
+                                LobbyInterrogation = Console.ReadLine();
+
+                                if (LobbyInterrogation == "a")
+                                {
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You decided to talk to Julio first.                                   |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    while (LobbyInterrogation == "a")
+                                    {
+                                        Console.WriteLine(" ______________________________________________________________________\n" +
+                                                          "/                                                                      \\\n" +
+                                                          "| Julio: Oh, umm… so I'm sorry; it's just that I’ve felt very surprised|\n" +
+                                                          "|        and grief-stricken about what happened… What would you like to|\n" +
+                                                          "|        ask me?                                                       |\n" +
+                                                          "\\______________________________________________________________________/\n");
+
+                                        Console.WriteLine("\n\ta) Who are you?\n\tb)What is your relationship with everyone?\n\tc) Where were you during the brownout?\n\td) Nevermind\n");
+                                        Console.Write("Action: ");
+                                        string JulioChoice = Console.ReadLine();
+
+                                        if (JulioChoice == "a")
+                                        {
+                                            Console.WriteLine(" ________________________________\n" +
+                                                              "|Can you desribe yourself to me? |\n" +
+                                                              " --v-----------------------------");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" ______________________________________________________________________\n" +
+                                                              "/                                                                      \\\n" +
+                                                              "| Julio: If you want to know about me, I'm just a recruit here. I just |\n" +
+                                                              "|        moved here a few months ago, and thanks to Leon, I got a job  |\n" +
+                                                              "|        as a performer at the Citadel. Now, I’m sharing my talents as |\n" +
+                                                              "|        a magician. Sadly, due to the events that happened, my        |\n" +
+                                                              "|        performance was delayed, but I didn't think that somebody     |\n" +
+                                                              "|        die during the anniversary, especially Christine…             |\n" +
+                                                              "\\______________________________________________________________________/\n");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" ___________________________________\n" +
+                                                             "|Have you met with Christine before? |\n" +
+                                                             " --v---------------------------------");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" ______________________________________________________________________\n" +
+                                                              "/                                                                      \\\n" +
+                                                              "| Julio: Yes, Earl mentioned her to me many times. However I only met  |\n" +
+                                                              "|        her a few times because of my performances. She was always    |\n" +
+                                                              "|        cheery and everytime I made a magic trick even if I committed |\n" +
+                                                              "|        a mistake in the process, she will be always be happy and     |\n" +
+                                                              "|        pretend to be surprised. Sadly she passed away…               |\n" +
+                                                              "\\______________________________________________________________________/\n");
+                                            Console.ReadLine();
+                                        }
+                                        else if (JulioChoice == "b")
+                                        {
+                                            Console.WriteLine(" ________________________________________\n" +
+                                                              "|How is your relationship with everyone? |\n" +
+                                                              " --v-------------------------------------");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" ______________________________________________________________________\n" +
+                                                              "/                                                                      \\\n" +
+                                                              "| Julio: My relationship? Well… I'm really good friends with Earl,     |\n" +
+                                                              "|        since he is a business man that was also interested in        |\n" +
+                                                              "|        overseas trading, I met him coincidentally and now we became  |\n" +
+                                                              "|        best of friends.                                              |\n" +
+                                                              "\\______________________________________________________________________/\n");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" _____________________________________________\n" +
+                                                              "|Did you know about the controversy with Earl?|\n" +
+                                                              " --v------------------------------------------");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" ______________________________________________________________________\n" +
+                                                              "/                                                                      \\\n" +
+                                                              "| Julio: Oh you mean the scandal of Earl regarding Christine? Well to  |\n" +
+                                                              "|        be honest, all because of one public argument, I didnt think  |\n" +
+                                                              "|        that the controversy will ruin his reputation slightly. I do  |\n" +
+                                                              "|        know that both of them are victims of the controversy.        |\n" +
+                                                              "|        Christine loved him a lot but Earl is already bethroted which |\n" +
+                                                              "|        why earl is having a hard time to return his feelings with    |\n" +
+                                                              "|        Christine.                                                    |\n" +
+                                                              "\\______________________________________________________________________/\n");
+                                        }
+                                        else if (JulioChoice == "c")
+                                        {
+                                            Console.WriteLine(" ______________________________________________\n" +
+                                                              "|Where were you before and during the brownout?|\n" +
+                                                              " --v-------------------------------------------");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" ______________________________________________________________________\n" +
+                                                              "/                                                                      \\\n" +
+                                                              "| Julio: Since I was the next second performer, I waited at the        |\n" +
+                                                              "|        backstage, then suddenly I heard a commotion near the hallway |\n" +
+                                                              "|        and then suddenly the light went out. I panicked during there |\n" +
+                                                              "|        because I dont know what to do. However after it brown out, I |\n" +
+                                                              "|        heard very loud shouts coming from the same spot but its      |\n" +
+                                                              "|        nearer by me.                                                 |\n" +
+                                                              "\\______________________________________________________________________/\n");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" _____________________________________\n" +
+                                                              "|Did you heard anyone scream near you?|\n" +
+                                                              " --v----------------------------------");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" ______________________________________________________________________\n" +
+                                                              "/                                                                      \\\n" +
+                                                              "| Julio: I was alone in the backstage and the others were waiting on   |\n" +
+                                                              "|        standby for the cue for my performance so I don’t think no one|\n" +
+                                                              "|        was there but me and also during the brownout, the screams in |\n" +
+                                                              "|        the auditorium was also loud.                                 |\n" +
+                                                              "\\______________________________________________________________________/\n");
+                                            Console.ReadLine();
+                                            Console.WriteLine(" _________________\n" +
+                                                              "|Standby for what?|\n" +
+                                                              " --v--------------");
+                                            Console.ReadLine();
+                                            while (JulioChoice == "b")
+                                            {
+                                                Console.WriteLine(" ______________________________________________________________________\n" +
+                                                              "/                                                                      \\\n" +
+                                                              "| Julio: Well my finale magic performance, includes a lot of people so |\n" +
+                                                              "|        I told them to go to the balcony holding the props that I     |\n" +
+                                                              "|        asked. It’s basically a reflection magic trick. If you have   |\n" +
+                                                              "|        two items related to the performance, I can probably give you |\n" +
+                                                              "|        a glimpse of the magic trick.                                 |\n" +
+                                                              "\\______________________________________________________________________/\n");
+
+                                                Console.WriteLine("What would you like to say?");
+                                                Console.WriteLine("\n\ta) I have the items you're looking for\n\t)b) I don't think I have it.");
+                                                Console.Write("Action: ");
+                                                string JulioPuzzleChoice = Console.ReadLine();
+
+                                                if (JulioPuzzleChoice == "a")
+                                                {
+                                                    Console.WriteLine(" ___________________________________\n" +
+                                                                      "|I have the items you're looking for|\n" +
+                                                                      " --v--------------------------------");
+                                                    Console.ReadLine();
+                                                    if (Inventory[6] != "" && Inventory[20] != "")
+                                                    {
+                                                        Console.WriteLine(" ______________________________________________________________________\n" +
+                                                                          "/                                                                      \\\n" +
+                                                                          "| Julio: Oh, you have both of them. Here is the last mirror. You can do|\n" +
+                                                                          "|        my magic trick easily now. Place them in the right place at   |\n" +
+                                                                          "|        one of the areas in the Backstage and you can figure out how  |\n" +
+                                                                          "|        final performance will go. Goodluck!                          |\n" +
+                                                                          "\\______________________________________________________________________/\n");
+                                                        Console.ReadLine();
+                                                        Console.WriteLine("You obtained \"Mirror (III)\"");
+                                                        Inventory[20] = "> (6569) Mirror(III)";
+                                                        Console.ReadLine();
+                                                        break;
+                                                    }
+                                                    else if (Inventory[6] != "" || Inventory[20] != "")
+                                                    {
+                                                        Console.WriteLine(" ______________________________________________________________________\n" +
+                                                                          "/                                                                      \\\n" +
+                                                                          "| Julio: You already have one item but I need one more of the same.    |\n" +
+                                                                          "|        Come back if you have both of them.                           |\n" +
+                                                                          "\\______________________________________________________________________/\n");
+                                                        Console.ReadLine();
+                                                    }
+                                                    else
+                                                    {
+                                                        Console.WriteLine(" ______________________________________________________________________\n" +
+                                                                          "/                                                                      \\\n" +
+                                                                          "| Julio: I dont think you have it...                                   |\n" +
+                                                                          "\\______________________________________________________________________/\n");
+                                                        Console.ReadLine();
+                                                    }
+                                                }
+                                                else if (JulioPuzzleChoice == "b")
+                                                {
+                                                    Console.WriteLine(" ______________________________________________________________________\n" +
+                                                                      "/                                                                      \\\n" +
+                                                                      "| Julio: You can talk to me again, if you have the items I'm looking   |\n" +
+                                                                      "|        for.                                                          |\n" +
+                                                                      "\\______________________________________________________________________/\n");
+                                                    Console.ReadLine();
+                                                    break;
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("Choose either of the options.");
+                                                    Console.ReadLine();
+                                                }
+
+                                            }
+                                        }
+                                        else if (JulioChoice == "d")
+                                        {
+                                            Console.WriteLine("You decided to stop your conversation.");
+                                            Console.ReadLine();
+                                            break;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Kindly select the choices mentioned.");
+                                        }
+                                    }
+                                }
+                                else if (LobbyInterrogation == "b")
+                                {
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You decided to talk to Earl first.                                    |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    while (LobbyInterrogation == "b")
+                                    {
+                                        Console.WriteLine(" ______________________________________________________________________\n" +
+                                                          "/                                                                      \\\n" +
+                                                          "| Julio: Hurry up, I don’t have enough time for you. What would yoou   |" +
+                                                          "|        like to ask?                                                  |\n" +
+                                                          "\\______________________________________________________________________/\n");
+                                        Console.WriteLine("\n\ta) Who are you?\n\tb)What is your relationship with everyone?\n\tc) Where were you during the brownout?\n\td) Nevermind\n");
+                                        Console.Write("Action: ");
+                                        string EarlChoice = Console.ReadLine();
+
+                                        if(EarlChoice=="a")
+                                        {
+
+                                        }
+                                    }
+                                }
+                                else if (LobbyInterrogation == "c")
+                                {
+                                    Console.WriteLine("\nYou decided to forego the conversation and you said goodbye to them.\n");
+                                    Console.ReadLine();
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Kindly input the choices mentioned above.");
+                                    Console.ReadLine();
+                                }
+                            }
                         }
                         else if (LobbyChoice == "c") //enables players to switch room . Name of Variable used in this code is <Name of the current location>SwitchRoom
                         {
@@ -569,6 +955,27 @@ namespace GameTest2
                                 if (LobbySwitchRoom == "a")
                                 {
                                     Console.WriteLine("\nStaying at Lobby...");
+                                    Console.ReadLine();
+                                    if (minutes >= 60)
+                                    {
+                                        hour += 1;
+                                        minutes = minutes - 60;
+                                    }
+                                    if (hour > 12)
+                                    {
+                                        hour = hour - 12;
+                                        TimeReader = "PM";
+                                    }
+                                    if (minutes < 10)
+                                    {
+                                        Minutereader = "0" + minutes;
+
+                                    }
+                                    else
+                                    {
+                                        Minutereader = minutes.ToString();
+                                    }
+                                    Console.WriteLine("Current Time: " + hour + ":" + Minutereader + TimeReader);
                                     room = 1;
                                     break;
 
@@ -576,12 +983,52 @@ namespace GameTest2
                                 else if (LobbySwitchRoom == "b")
                                 {
                                     Console.WriteLine("\nHeading to Auditorium...");
+                                    minutes += random.Next(1, 3);
+                                    if (minutes >= 60)
+                                    {
+                                        hour += 1;
+                                        minutes = minutes - 60;
+                                    }
+                                    if (hour > 12)
+                                    {
+                                        hour = hour - 12;
+                                        TimeReader = "PM";
+                                    }
+                                    if (minutes < 10)
+                                    {
+                                        Minutereader = "0" + minutes;
+
+                                    }
+                                    else
+                                    {
+                                        Minutereader = minutes.ToString();
+                                    }
                                     room = 2;
                                     break;
                                 }
                                 else if (LobbySwitchRoom == "c")
                                 {
                                     Console.WriteLine("\nHeading to Hallway...");
+                                    minutes += random.Next(1, 3);
+                                    if (minutes >= 60)
+                                    {
+                                        hour += 1;
+                                        minutes = minutes - 60;
+                                    }
+                                    if (hour > 12)
+                                    {
+                                        hour = hour - 12;
+                                        TimeReader = "PM";
+                                    }
+                                    if (minutes < 10)
+                                    {
+                                        Minutereader = "0" + minutes;
+
+                                    }
+                                    else
+                                    {
+                                        Minutereader = minutes.ToString();
+                                    }
                                     room = 3;
                                     break;
                                 }
@@ -593,7 +1040,144 @@ namespace GameTest2
                         }
                         else if (LobbyChoice == "d")
                         {
-                            Console.WriteLine("Here is your inventory");
+                            while (LobbyChoice == "d")
+                            { 
+                                Console.WriteLine("Here is your inventory:");
+                                for (int z = 0; z < Inventory.Length; z++)
+                                {
+                                    if (Inventory[z] == "" && Inventory[z + 1] == "")
+                                    {
+                                        break;
+                                    }
+                                    if (Inventory[z] == "")
+                                    {
+                                        continue;
+                                    }
+                                    Console.WriteLine(Inventory[z]);
+
+                                    
+                                }
+
+                                Console.WriteLine("Write the indicated number of the clue you want to view otherwise type \"Back\"");
+                                Console.Write("Action: ");
+                                string InventoryChoice = Console.ReadLine();
+                                if (InventoryChoice == "0204" && Inventory[0]!="")
+                                {
+                                    Console.WriteLine("Detective File Case Report Summary Findings");
+                                }
+                                else if (InventoryChoice == "7823" && Inventory[1] != "")
+                                {
+                                    Console.WriteLine("Bullet Summary Findings");
+                                }
+                                else if (InventoryChoice == "8203" && Inventory[2] != "")
+                                {
+                                    Console.WriteLine("Blood-stained Letter Summary Findings");
+                                }
+                                else if (InventoryChoice == "5685" && Inventory[3] != "")
+                                {
+                                    Console.WriteLine("Schedule Summary Findings");
+                                }
+                                else if (InventoryChoice == "0370" && Inventory[4] != "")
+                                {
+                                    Console.WriteLine("Exquisite Paintings Summary Findings");
+                                }
+                                else if (InventoryChoice == "1488" && Inventory[5] != "")
+                                {
+                                    Console.WriteLine("Several Footprints Summary Findings");
+                                }
+                                else if (InventoryChoice == "6179" && Inventory[6] != "")
+                                {
+                                    Console.WriteLine("First Mirror Summary Findings");
+                                }
+                                else if (InventoryChoice == "4448" && Inventory[7] != "")
+                                {
+                                    Console.WriteLine("Sealing Wax Summary Findings");
+                                }
+                                else if (InventoryChoice == "2490" && Inventory[8] != "")
+                                {
+                                    Console.WriteLine("Spare Key Summary Findings");
+                                }
+                                else if (InventoryChoice == "3505" && Inventory[9] != "")
+                                {
+                                    Console.WriteLine("Old Letter Summary Findings");
+                                }
+                                else if (InventoryChoice == "0195" && Inventory[10] != "")
+                                {
+                                    Console.WriteLine("Torn Photograph Summary Findings");
+                                }
+                                else if (InventoryChoice == "2340" && Inventory[11] != "")
+                                {
+                                    Console.WriteLine("Journal Summary Findings");
+                                }
+                                else if (InventoryChoice == "8966" && Inventory[12] != "")
+                                {
+                                    Console.WriteLine("Eternal Bessotted Music Sheet Summary Findings");
+                                }
+                                else if (InventoryChoice == "1872" && Inventory[13] != "")
+                                {
+                                    Console.WriteLine("Set of Metronomes Summary Findings");
+                                }
+                                else if (InventoryChoice == "4006" && Inventory[14] != "")
+                                {
+                                    Console.WriteLine("The Cryptic Message of a Love Song Summary Findings");
+                                }
+                                else if (InventoryChoice == "3891" && Inventory[15] != "")
+                                {
+                                    Console.WriteLine("Vase of Roses Summary Findings");
+                                }
+                                else if (InventoryChoice == "0656" && Inventory[16] != "")
+                                {
+                                    Console.WriteLine("Typewriter with Weird Pamphlet Summary Findings");
+                                }
+                                else if (InventoryChoice == "1966" && Inventory[17] != "")
+                                {
+                                    Console.WriteLine("Thin Metal Stick Summary Findings");
+                                }
+                                else if (InventoryChoice == "6168" && Inventory[18] != "")
+                                {
+                                    Console.WriteLine("Pliers Summary Findings");
+                                }
+                                else if (InventoryChoice == "4176" && Inventory[19] != "")
+                                {
+                                    Console.WriteLine("Strange Bullet Summary Findings");
+                                }
+                                else if (InventoryChoice == "0657" && Inventory[20] != "")
+                                {
+                                    Console.WriteLine("Second Mirror Summary Findings");
+                                }
+                                else if (InventoryChoice == "0445" && Inventory[21] != "")
+                                {
+                                    Console.WriteLine("Blueprint of the Citadel Summary Findings");
+                                }
+                                else if (InventoryChoice == "1729" && Inventory[22] != "")
+                                {
+                                    Console.WriteLine("Dead Body of Quentin Summary Findings");
+                                }
+                                else if (InventoryChoice == "9485" && Inventory[23] != "")
+                                {
+                                    Console.WriteLine("Ferulle Summary Findings");
+                                }
+                                else if (InventoryChoice == "6695" && Inventory[24] != "")
+                                {
+                                    Console.WriteLine("Logo of Silvio Addams Summary Findings");
+                                }
+                                else if (InventoryChoice == "6569" && Inventory[25] != "")
+                                {
+                                    Console.WriteLine("Third Mirror Summary Findings");
+                                }
+                                else if (InventoryChoice == "3529" && Inventory[26] != "")
+                                {
+                                    Console.WriteLine("Scented Charm Letter Findings");
+                                }
+                                else if (InventoryChoice == "Back"||InventoryChoice=="back")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("It seems you wrote it wrong. Please try again.");
+                                }
+                            }
                         }
                         else
                         {
@@ -615,6 +1199,8 @@ namespace GameTest2
                         if (AuditoriumChoice == "a")
                         {
                             Console.WriteLine("\nInquiring people");
+                            Inventory[3] = "> (5685) Schedule"; //Schedule Clue
+
                         }
                         else if (AuditoriumChoice == "b")
                         {
@@ -678,29 +1264,98 @@ namespace GameTest2
 
                                 if (HallwayRoom == "a")
                                 {
-                                    Console.WriteLine("You decided to look at the paintings, which are a history of the Citadel Opera House and Three paintings were involved.");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You decided to look at the paintings, which are a history of the      |\n" +
+                                                      "|Citadel Opera House and Three paintings were involved.                |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
                                     Console.WriteLine("Player: December 20, 1903... This painting must be age-old.");
-                                    Console.WriteLine("The first contained three prominent families, and below the corner of the painting, it said the letters G, A, and V.");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|The first contained three prominent families, and below the corner of |\n" +
+                                                      "|the painting, it said the letters G, A, and V.                        |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
                                     Console.WriteLine("Player: I wondered what it means. Does it involve the people in the painting?");
-                                    Console.WriteLine("The second painting contains the first crew performers, and you recognize Leon in the middle of the painting. He was surrounded by people who " +
-                                        "were familiar to you. There was Merida together, who seemed to be with Christine, Silvio was next to Leon, and Earl was on the far corner. Nobles also " +
-                                        "surrounded them and dressed elegantly.");
-                                    Console.WriteLine("The third painting is recent and involves all the performers of the past month. Merida and Silvio were playing their instruments together with " +
-                                        "other musicians. There were also acrobats, clowns, and an animal trainer in the middle, which seemed to be the newest addition to the performances; however, " +
-                                        "you recognized a young individual's face. It seemed to be Julio, and he was holding out what appeared to be a deck of cards.");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|The second painting contains the first crew performers, and you       |\n" +
+                                                      "|recognize Leon in the middle of the painting. He was surrounded by    |\n" +
+                                                      "|people who were familiar to you. There was Merida together, who seemed|\n" +
+                                                      "|to be with Christine, Silvio was next to Leon, and Earl was on the far|\n" +
+                                                      "| corner. Nobles also surrounded them and dressed elegantly.           |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|The third painting is recent and involves all the performers of the   |\n" +
+                                                      "|past month. Merida and Silvio were playing their instruments together |\n" +
+                                                      "|with other musicians. There were also acrobats, clowns, and an animal |\n" +
+                                                      "|trainer in the middle, which seemed to be the newest addition to the  |\n" +
+                                                      "|performances; however, you recognized a young individual's face. It   |\n" +
+                                                      "|seemed to be Julio, and he was holding out what appeared to be a deck |\n" +
+                                                      "|of cards.                                                             |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
                                     Console.WriteLine("Player: If I remember correctly, the Citadel's first performers were only musicians. However, as he mentioned in our past discussions, Leon " +
                                         "expanded and explored new talents overseas.");
-                                    Console.WriteLine("Player: If I remember correctly, the Citadel's first performers were only musicians. However, as he mentioned in our past discussions, Leon " +
-                                        "expanded and explored new talents overseas.");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You preserved this information in mind as it might be another helpful |\n" +
+                                                      "|clue.                                                                 |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
                                     Console.WriteLine("You found \"Historical Paintings.\"");
+                                    Console.ReadLine();
+                                    Inventory[4] = "> (0370) Historical Paintings"; //Historical Paintings Clue
                                 }
                                 else if (HallwayRoom == "b")
                                 {
-                                    Console.WriteLine("Look into the carpets Dialogue");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|The carpet, once luxurious and meticulously arranged, now lay in      |\n" +
+                                                      "|disarray, its fibers ruffled and stained. It was intended to exude an |\n" +
+                                                      "|air of grandeur and cleanliness, but instead, it told a story of      |\n" +
+                                                      "|neglect. Scattered across its surface were numerous footprints, each a|\n" +
+                                                      "|silent witness to the chaos unfolding. The once-pristine rug had      |\n" +
+                                                      "|become a patchwork of disturbances, hinting at a sudden commotion that|\n" +
+                                                      "|had disrupted its intended elegance.                                  |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: It seems that many people have passed this way during the brownout.");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You considered this, knowing it might be significant.                 |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You found \"Several Footprints.\"");
+                                    Console.ReadLine();
+                                    Inventory[5] = "> (1488) Several Footprints";//Several Footprints Clue
                                 }
                                 else if (HallwayRoom == "c")
                                 {
-                                    Console.WriteLine("Explore the disarrayed boxes Dialogue");
+                                    Console.WriteLine("Player: Why does this box look so familiar?");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|The box catches your eye with its resemblance to a small black chest, |\n" +
+                                                      "|though notably more petite than a typical large chest you might have  |\n" +
+                                                      "|seen before. Lifting the lid reveals an array of trinkets nestled     |\n" +
+                                                      "|inside—the marked ropes, adorned silk scarves glistening softly, and a|\n" +
+                                                      "|handful of coins that chime gently against one another. Several       |\n" +
+                                                      "|mirrors are Scattered among these treasures, each featuring intricate |\n" +
+                                                      "|designs hinting at artistry and craftsmanship. However, a few of these|\n" +
+                                                      "| mirrors lie shattered on the floor, their delicate shards catching   |\n" +
+                                                      "|the light dishearteningly.                                            |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: I'll take this one since it's in good shape.");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You carefully select one of the unbroken mirrors, admiring its glossy |\n" +
+                                                      "|surface and ornate frame. This item could prove valuable in your      |\n" +
+                                                      "|upcoming investigation.                                               |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You have obtained \"Mirror (I).\"");
+                                    Console.ReadLine();
+                                    Inventory[6] = "> (6179) Mirror (I)";//First Mirror Clue
                                 }
                                 else if (HallwayRoom == "d")
                                 {
@@ -723,7 +1378,7 @@ namespace GameTest2
 
                                 if (HallwaySwitchRoom == "a")
                                 {
-                                    Console.WriteLine("\nStaying at Hallway...");
+                                    Console.WriteLine("\nStaying in the Hallway...");
                                     break;
                                 }
                                 else if (HallwaySwitchRoom == "b")
@@ -799,15 +1454,148 @@ namespace GameTest2
 
                                 if (GeneralDirectorOfficeRoom == "a")
                                 {
-                                    Console.WriteLine("\nDesk office dialogue");
+                                    while (GeneralDirectorOfficeRoom == "a")
+                                    {
+                                        Console.WriteLine("\n Which one would you like to look first?");
+                                        Console.WriteLine("a) Chest\nb) Desk Papers\nc) Back\n");
+                                        Console.Write("Action: ");
+                                        string GeneralDirectorOfficeRoomChoiceDetail = Console.ReadLine();
+
+                                        if (GeneralDirectorOfficeRoomChoiceDetail == "a")
+                                        {
+                                            Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                              "|You stumbled upon a small, intricately carved wooden box resting on   |\n" +
+                                                              "|the desk beside a bottle of dark ink and a finely crafted quill. As   |\n" +
+                                                              "|you lifted the box, its smooth surface felt warm against your palm,   |\n" +
+                                                              "|perfectly contoured to fit comfortably. Carefully, you opened the lid,|\n" +
+                                                              "| revealing a concealed treasure inside—a glinting stamp.              |\n" +
+                                                              "└──────────────────────────────────────────────────────────────────────┘");
+                                            Console.ReadLine();
+                                            Console.WriteLine("Player: Is that a sealing wax?");
+                                            Console.ReadLine();
+                                            Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                              "|Indeed, the sealing wax lay nestled within the box, intended for      |\n" +
+                                                              "|impressing documents with authority. Its surface was adorned with an  |\n" +
+                                                              "|elaborate Lion Crest, depicting strength and nobility. As you         |\n" +
+                                                              "|carefully examined the crest, you couldn't help but think this detail |\n" +
+                                                              "|could prove significant in your journey.                              |" +
+                                                              "└──────────────────────────────────────────────────────────────────────┘\n");
+                                            Console.ReadLine();
+                                            Console.WriteLine("You have obtained \"Sealing Wax.\"");
+                                            Console.ReadLine();
+                                            Inventory[7] = "> (4448) Sealing Wax";//Sealing Wax Clue
+                                        }
+                                        else if (GeneralDirectorOfficeRoomChoiceDetail == "b")
+                                        {
+                                            while (GeneralDirectorOfficeRoomChoiceDetail == "b")
+                                            {
+                                                Console.WriteLine("You gazed upon an elegant chest that seems to locked. It seems you need a 4-letter passcode to unlock it. You tried to input the code below. (Input the" +
+                                                    "code in uppercase; If you want to return type \"Back\"");
+                                                Console.Write("Code: ");
+                                                string chestcode = Console.ReadLine();
+                                                if (chestcode == "DWMP")
+                                                {
+                                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                                      "|A musty scent wafted into the air as you deftly opened the chest,     |\n" +
+                                                                      "|revealing its hidden treasures. Nestled inside was an ancient         |\n" +
+                                                                      "|document, its edges frayed and yellowed with age. A letter, the ink   |\n" +
+                                                                      "|slightly faded, was addressed to Grandet. The wax stamp that once     |\n" +
+                                                                      "|sealed it lay crumbled nearby, suggesting it had been read and        |\n" +
+                                                                      "|treasured by someone long ago.                                        |" +
+                                                                      "└──────────────────────────────────────────────────────────────────────┘\n");
+                                                    Console.ReadLine();
+                                                    Console.WriteLine("Player: this might cross my dear friend's boundaries, but my curiosity is getting me.");
+                                                    Console.ReadLine();
+                                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                                      "|Carefully extracting the letter, you traced your fingertips over the  |\n" +
+                                                                      "|fragile parchment, committing its elegant script to memory. After     |\n" +
+                                                                      "|savoring the moment, you gently folded the letter and returned it to  |\n" +
+                                                                      "|its resting place, locking the chest securely once more.              |\n" +
+                                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                                    Console.ReadLine();
+
+                                                    Console.WriteLine("You discovered an \"Old Letter\"");
+                                                    Console.ReadLine();
+                                                    Inventory[9] = "> (3505) Old Letter";//Old Letter clue
+                                                }
+                                                else if(chestcode == "Back")
+                                                {
+                                                    break;
+                                                }
+                                                else 
+                                                {
+                                                    Console.WriteLine("\n(!) The chest didn't open. (Hint: It seems you need to find a clue somewhere within the room related to this.)");
+                                                    Console.ReadLine();
+                                                }
+                                            }
+                                        }
+                                        else if (GeneralDirectorOfficeRoomChoiceDetail == "c")
+                                        {
+                                            break;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Kindly input the choices mentioned above.");
+                                        }
+                                    }
                                 }
                                 else if (GeneralDirectorOfficeRoom == "b")
                                 {
-                                    Console.WriteLine("\nThe key hanging on the wall.");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you drew closer to the wall, your eyes were immediately drawn to a |\n" +
+                                                      "|fascinating assortment of keys suspended from it. Each key appeared   |\n" +
+                                                      "|unique: some proudly displayed labels, while others were merely hooks |\n" +
+                                                      "|left bare, absent of any metal companions. You recalled that each room|\n" +
+                                                      "|held its specific spare key, yet their differences piqued your        |\n" +
+                                                      "|interest.                                                             |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: \"This one is indeed a spare, but I can't help but wonder why its design is so unusual?\"");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Amidst the collection, your gaze landed on a solitary key that bore no|\n" +
+                                                      "|label atop its head. Intrigued by its enigmatic appearance, you       |\n" +
+                                                      "|couldn't resist the urge to take it, convinced it might prove helpful |\n" +
+                                                      "|in your exploration.                                                  |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You obtained a \"Spare Key.\"");
+                                    Console.ReadLine();
+                                    Inventory[8] = "> (2490) Spare Key"; //Spare Key Clue
                                 }
                                 else if (GeneralDirectorOfficeRoom == "c")
                                 {
-                                    Console.WriteLine("\nLarge Bookshelves");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you approached the bookshelf, the neatly arranged books drew your  |\n" +
+                                                      "|attention. One specific volume caught your eye, and a delicate piece  |\n" +
+                                                      "|of paper slipped out as you lifted it.                                |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: A photograph?");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You knelt to pick it up and discovered it was a torn piece. Despite   |\n" +
+                                                      "|its frayed edges, it captured two smiling children from a wealthy     |\n" +
+                                                      "|family. Flipping it over revealed a series of strange symbols arranged|\n" +
+                                                      "|in an intriguing pattern.                                             |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Searching the spot where the photograph had fallen, you discovered a  |\n" +
+                                                      "|journal filled with the same symbols on the picture.                  |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Recognizing their potential significance, you carefully placed the    |\n" +
+                                                      "|torn photograph and the journal into your inventory, ready to continue|\n" +
+                                                      "|exploring.                                                            |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+
+                                    Console.WriteLine("You obtained \"Torn Photograph\" and \"Journal.”");
+                                    Console.ReadLine();
+                                    Inventory[10] = "> (0195) Torn Paragraph"; //Torn Photograph Clue
+                                    Inventory[11] = "> (2340) Journal";//Journal cLUE
                                 }
                                 else if (GeneralDirectorOfficeRoom == "d")
                                 {
@@ -886,15 +1674,171 @@ namespace GameTest2
 
                                 if (PracticeRoomRoom == "a")
                                 {
-                                    Console.WriteLine("Stacked Shelves Dialogue");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you stepped closer to the meticulously organized shelves, you were |\n" +
+                                                      "|drawn to a prominently displayed book, its cover adorned with         |\n" +
+                                                      "|intricate designs and titles that hinted at a treasure trove of       |\n" +
+                                                      "|musical compositions. Nestled atop the shelf, a collection of polished|\n" +
+                                                      "| metronomes stood like sentinels, their pendulums ready to keep       |\n" +
+                                                      "|perfect time.                                                         |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you delved into the music sheets, your fingers fluttered through   |\n" +
+                                                      "|the thick book, the scent of aged paper surrounding you. Suddenly,    |\n" +
+                                                      "|something caught your eye, making you stop.                           |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: What could this be?");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You found a sheet titled \"Eternal Besotted,\" adorned with an        |\n" +
+                                                      "|intricate seal of a hawk beneath it. Unlike the others, this one had  |\n" +
+                                                      "|numbers beneath each note, hinting at a deeper meaning that piqued    |\n" +
+                                                      "|your curiosity. You contemplated the situation carefully, diving      |\n" +
+                                                      "|deeper into your investigation by scrutinizing the array of           |\n" +
+                                                      "|metronomes. Each metronome bore a striking resemblance to the others, |\n" +
+                                                      "|crafted in a uniform style, yet their pendulums hung motionless,      |\n" +
+                                                      "|frozen in time like statues in a museum.                              |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: Are they broken?");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|At first, you were convinced they were malfunctioning, especially as  |\n" +
+                                                      "|you leaned in to inspect one closely. But as your fingers brushed     |\n" +
+                                                      "|against its cool surface, you noticed intricate symbols etched beneath|\n" +
+                                                      "|it—mysterious glyphs that left you puzzled and curious.               |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Both the music sheet and the symbols on the metronome might be helpful|\n" +
+                                                      "| in your investigation, so you decided to take the music sheet and    |\n" +
+                                                      "|commit the metronome's symbols to memory, as they could aid your      |\n" +
+                                                      "|progress.                                                             |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You discovered \"Eternal Bessotted Music Sheet\" and \"Set of Metronomes.\"");
+                                    Console.ReadLine();
+                                    Inventory[12] = "> (8966) Eternal Bessotted Music Sheet";
+                                    Inventory[13] = "> (1872) Set of Metronomes";
+
                                 }
-                                else if (PracticeRoomRoom == "b")
+                                else if (PracticeRoomRoom == "b") //Music Sheet puzzle
                                 {
-                                    Console.WriteLine("Grand Piano Dialogue");
+                                        Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                          "|Approaching the grand piano, you notice its polished surface gleaming |\n" +
+                                                          "|under the soft light. A spot on the music stand beckons for a sheet of|\n" +
+                                                          "|music. Checking your inventory, you consider which piece to place     |\n" +
+                                                          "|before this elegant instrument. What will you choose?                 |\n" +
+                                                          "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    while (PracticeRoomRoom == "b")
+                                    {
+                                        Console.WriteLine("Here is your inventory:");
+                                        for (int z = 0; z < Inventory.Length; z++)
+                                        {
+                                            if (Inventory[z] == "")
+                                            {
+                                                continue;
+                                            }
+                                            Console.WriteLine(Inventory[z]);
+
+                                            if (Inventory[z] == "" && Inventory[z + 1] == "")
+                                            {
+                                                break;
+                                            }
+                                        }
+                                        Console.WriteLine("Pick the item you want to interact with the piano (If you would like to return type \"Back\"");
+                                        Console.Write("Action: ");
+                                        string MusicSheetPuzzleAction = Console.ReadLine();
+
+                                        if (MusicSheetPuzzleAction == "8966" && Inventory[12] != "")
+                                        {
+                                            
+                                                Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                                  "|The melody unfolded into a sweet love song as you played, filling the |\n" +
+                                                                  "|room with warmth. Yet, beneath the enchanting notes, the numbers      |\n" +
+                                                                  "|scribbled below piqued your curiosity, suggesting a deeper meaning.   |\n" +
+                                                                  "└──────────────────────────────────────────────────────────────────────┘");
+                                            Console.ReadLine();
+                                            Console.WriteLine("Player: There must be something more to this.");
+                                            Console.ReadLine();
+                                            while (MusicSheetPuzzleAction == "8966" && Inventory[12] != "")
+                                            {
+                                                Console.WriteLine("You leaned closer, eyes scanning the mysterious notations, eager to decipher their secrets. (Input the right message and ensure it's lowercase with only spaces without special characters; otherwise, type \"Back\" to explore other rooms.)");
+                                                Console.Write("Code: ");
+                                                string CrypticMessage= Console.ReadLine();
+
+                                                if (CrypticMessage == "if you do not love me back i will kill you") //Cryptic Message of A love song Clue
+                                                {
+                                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                                      "|Eventually, you uncovered a hidden message that seemed to loom        |\n" +
+                                                                      "|ominously—beneath the love song lurked a threatening undertone. Who   |\n" +
+                                                                      "|could have written this? Despite the eerie discovery, you decided to  |\n" +
+                                                                      "|continue your investigation.                                          |\n" +
+                                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                                    Console.ReadLine();
+                                                    Console.WriteLine("You discovered \"Cryptic Message of a Love Song\"");
+                                                    Console.ReadLine();
+                                                    Inventory[14] = "> (4006) Cryptic Message of A Love Song";
+                                                }
+                                                else if (CrypticMessage=="Back"||CrypticMessage=="back")
+                                                {
+                                                    break;
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("That seems to be the wrong code. Maybe the numbers in the music sheet is related to another clue.");
+                                                }
+                                            }
+                                        }
+                                        else if (MusicSheetPuzzleAction =="Back"||MusicSheetPuzzleAction=="back")
+                                        {
+                                            break;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("It seems you cant interact with this or its not part of the choices. Please try again.");
+                                        }
+                                        
+                                    }
                                 }
-                                else if (PracticeRoomRoom == "c")
+                                else if (PracticeRoomRoom == "c") //Vase of Roses and Weird Pamphlet CLue
                                 {
-                                    Console.WriteLine("Resting Area Dialogue");
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you made your way to the tranquil resting area, a sweet and        |\n" +
+                                                      "|intoxicating fragrance wafted through the air, drawing you closer. You|\n" +
+                                                      "|soon spotted a delicate vase adorned with vibrant roses that seemed to|\n" +
+                                                      "|bloom with life. Nestled beneath the vase, a small note tag lay       |\n" +
+                                                      "|partially slipped out, its elegant script revealing a touching        |\n" +
+                                                      "|message: \"From your dear fiancé.\"                                   |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: Who do the roses belong to?");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you mused over the meaning behind the roses, your gaze fell upon a |\n" +
+                                                      "|vintage typewriter sitting silently beside the vase. Its polished keys|\n" +
+                                                      "|glimmered in the soft light, and curious numbers were etched along its|\n" +
+                                                      "|sides, hinting at secrets waiting to be unraveled. Next to the        |\n" +
+                                                      "|typewriter, a pamphlet caught your attention, its surface intricately |\n" +
+                                                      "|covered in mysterious symbols that danced before your eyes.           |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: Both of these might be useful.");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You carefully lifted the pamphlet and ignited in your mind as you     |\n" +
+                                                      "|recalled the unique layout of the typewriter. Combining both items    |\n" +
+                                                      "|hinted at discovering something significant, urging you to proceed    |\n" +
+                                                      "|with your investigation.                                              |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You obtained \"Vase of Roses\" and \"Typewriter and Weird Pamphlet\"");
+                                    Console.ReadLine();
+                                    Inventory[15] = "> (3891) Vase of Roses";
+                                    Inventory[16] = "> (0656) Typewriter with Weird Pamphlet";
                                 }
                                 else if (PracticeRoomRoom == "d")
                                 {
@@ -960,7 +1904,84 @@ namespace GameTest2
                         string GeneratorChoice = Console.ReadLine();
                         if (GeneratorChoice == "a")
                         {
-                            Console.WriteLine("Inspecting the room for clues");
+                            while (GeneratorChoice == "a")
+                            {
+                                Console.WriteLine("As you scanned the dim room for clues, the generator's hum filled your ears, and its switches flickered ominously. You pondered the brown-out's cause, then " +
+                                    "noticed a toolbox beneath the switch box, its lid carelessly left open as if someone had hurriedly rummaged through it. Strange scuff marks on the wall caught your eye, " +
+                                    "suggesting an unusual struggle or secret activity. What would you like to investigate first?"); //Going to revise this paragraph
+                                Console.WriteLine("a) Switchbox\nb) Toolbox\nc) Strange marks\nd) Back\n");
+                                Console.Write("Action: ");
+                                string GeneratorRoom = Console.ReadLine();
+                                if (GeneratorRoom == "a")
+                                {
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You began your investigation by examining the switch box, which stood |\n" +
+                                                      "|in an unassuming corner, its surface smooth and unblemished.          |\n" +
+                                                      "|Everything was in perfect order: the circuits were intact, the buttons|\n" +
+                                                      "|responsive, and the entire device operated seamlessly. Yet, amidst the|\n" +
+                                                      "|neatly arranged components, your gaze fell upon a slender metallic    |\n" +
+                                                      "|stick, its surface glinting under the light.                          |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: This may appear to be an odd find, but it could be quite useful.");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Unsure of its intended use, you decided to take the peculiar object   |\n" +
+                                                      "|with you, convinced that it might be essential for whatever lay ahead.|\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You obtained a \"Thin Metallic Stick\""); //Thin Metallic Stick Clue
+                                    Console.ReadLine();
+                                    Inventory[17] = "> (1966) Thin Metallic Stick";
+                                }
+                                else if (GeneratorRoom == "b")
+                                {
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|Beneath the switch box, your eyes are drawn to a toolbox that hangs   |\n" +
+                                                      "|ajar, its contents partially revealed. As you peer inside, you search |\n" +
+                                                      "|for tools to assist your investigation. Among the scattered wrenches  |\n" +
+                                                      "|and screws, a pair of gleaming pliers catches your attention. You     |\n" +
+                                                      "|reach for the sturdy tool, feeling its weight in your hand, confident |\n" +
+                                                      "|that it will prove valuable in the tasks ahead.                       |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You obtained \"Pliers\"");
+                                    Console.ReadLine();
+                                    Inventory[18] = "> (6168) Pliers";
+                                }
+                                else if(GeneratorRoom=="c")
+                                {
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|As you leaned in closer to the wall, your eyes caught sight of        |\n" +
+                                                      "|peculiar scuffed marks.                                               |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: Wait, isn't this...?");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|With renewed focus, you examined the surface, and your heartbeat      |\n" +
+                                                      "|quickened as you spotted something shimmering faintly amidst the      |\n" +
+                                                      "|patterns—an object with a golden glint nestled within the worn texture|\n" +
+                                                      "|of the wall. This discovery, seemingly insignificant at first, became |\n" +
+                                                      "|a significant find. Curiosity got the better of you, and you reached  |\n" +
+                                                      "|out, gently prying at the edges. It finally came loose after a few    |\n" +
+                                                      "|determined pulls, revealing itself as a bullet—a striking find that   |\n" +
+                                                      "|left you pondering its origin and significance.                       |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("You obtained “Strange Bullet”");
+                                    Console.ReadLine();
+                                    Inventory[19] = "> (4176) Strange Bullet";
+                                }
+                                else if (GeneratorChoice == "d")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Kindly input things the choices indicated above.");
+                                }
+                            }                        
                         }
                         else if (GeneratorChoice == "b")
                         {
@@ -988,6 +2009,14 @@ namespace GameTest2
                                 }
                             }
                         }
+                        else if(GeneratorChoice=="c")
+                        {
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Kindly input the choices mentioned above");
+                        }
                     }
                 }
                 else if (room == 7)
@@ -1005,14 +2034,174 @@ namespace GameTest2
 
                         if (BackstageChoice == "a")
                         {
-                            Console.WriteLine("Inspecting the room for clues");
+                            while (BackstageChoice == "a")
+                            {
+                                Console.WriteLine("A unique atmosphere of anticipation and tension fills the air in the half-dark backstage. The faint glow of overhead lights cast long, distorted shadows across " +
+                                    "the worn wooden floor. The heavy curtains accompany the room's quietness. Stagehands tiptoe; their footsteps are barely audible as they rush to adjust props and set pieces. " +
+                                    "The half-lit space is cluttered with scattered costumes—some hanging loosely on racks, others tossed carelessly on the ground, their fabric glowing faintly in the dim light. " +
+                                    "This is a place with its secrets and stories waiting to be discovered. What would you like to do?");
+                                Console.WriteLine("a)Another set of Boxes\nb)Investigate the Ladder\nc)Explore the dressing room\nd)Back\n");
+                                Console.Write("Action: ");
+                                string BackstageRoom = Console.ReadLine();
+                                if (BackstageRoom == "a")
+                                {
+                                    while (BackstageRoom == "a") 
+                                    {
+                                        Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                          "|Your eyes are drawn to a collection of small and large black chests,  |\n" +
+                                                          "|each exuding an air of mystery. One chest catches your attention with |\n" +
+                                                          "|its intricate carvings. At the same time, another features a tattered |\n" +
+                                                          "|blueprint of the citadel, which you carefully store in your inventory.|\n" +
+                                                          "└──────────────────────────────────────────────────────────────────────┘");
+                                        Console.ReadLine();
+                                        Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                          "|You then notice a chest adorned with a gleaming golden lock, its      |\n" +
+                                                          "|four-digit code challenge sparking your curiosity.                    |\n" +
+                                                          "└──────────────────────────────────────────────────────────────────────┘");
+                                        Console.ReadLine();
+                                        Console.WriteLine("What would you like to do first?");
+                                        Console.WriteLine("\na) Continue exploring the surroundings.\nb) Attempt to unlock the chest.\n");
+                                        Console.Write("\nAction: ");
+                                        string BackstageRoomChest = Console.ReadLine();
+
+                                        if (BackstageRoomChest == "a")
+                                        {
+                                            Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                              "|You decided to return rather than look at the chest.                  |\n" +
+                                                              "└──────────────────────────────────────────────────────────────────────┘");
+                                            Console.ReadLine();
+                                            Console.WriteLine("You obtained \"Blueprint of the Citadel\"");
+                                            Console.ReadLine();
+                                            Inventory[21] = "> (0445) Blueprint of the Citadel"; //Blueprint of Citadel Clue
+                                        }
+                                        else if (BackstageRoomChest == "b")
+                                        {
+                                            while (BackstageRoomChest == "b")
+                                            {
+                                                Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                                  "|You attempted to unlock the chest. (Input the right code; If you would|\n" +
+                                                                  "|like to return, type \"Back\"                                         |\n" +
+                                                                  "└──────────────────────────────────────────────────────────────────────┘"); //Chest Puzzle regarding metronome
+                                                Console.Write("Code: ");
+                                                string BackstageRoomUnlockingChest = Console.ReadLine();
+                                                if (BackstageRoomUnlockingChest == "3824")
+                                                {
+                                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                                      "|After a long, arduous journey to unlocking the padlock, you finally   |\n" +
+                                                                      "|unlocked the intricately designed chest. A soft, golden light spilled |\n" +
+                                                                      "|out as the lid creaked open, revealing an exquisite mirror within the |\n" +
+                                                                      "|velvet-lined interior. This mirror was unlike any you had encountered |\n" +
+                                                                      "|before; its frame was adorned with delicate, swirling patterns that   |\n" +
+                                                                      "|seemed to shimmer in the light. Intrigued, you gently lifted the      |\n" +
+                                                                      "|mirror and, sensing its unique aura, carefully placed it in your      |\n" +
+                                                                      "|inventory, feeling a subtle warmth radiate from it as you did so.     |\n" +
+                                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                                    Console.ReadLine();
+                                                    Console.WriteLine("You obtained \"Mirror (II).\""); //Mirror II Clue
+                                                    Console.ReadLine();
+                                                    Inventory[20] = "> (0657) Mirror (II)";
+                                                }
+                                                else if (BackstageRoomUnlockingChest == "Back"||BackstageRoomUnlockingChest=="back")
+                                                {
+                                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                                      "|You decided to return and check it later                              |\n" +
+                                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                                    Console.ReadLine();
+                                                    break;
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("It seems thats the wrong code...(Hint: You might need to check the metronomes once again.");
+                                                }
+                                            }
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Kindly choose between the choices mentioned");
+                                        }
+                                    }
+                                }
+                                else if (BackstageRoom == "b")
+                                {
+                                    Console.WriteLine("Investigate the Ladder Dialogue");
+                                   Inventory[24] = "> (6695) A Tiger Crest";
+                                }
+                                else if (BackstageRoom=="c")
+                                {
+                                        Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                          "|Upon entering the dressing room, a strong, unpleasant odor envelops   |\n" +
+                                                          "|you, blending with the chaotic atmosphere. Clothes are scattered      |\n" +
+                                                          "|across the floor, creating a vibrant patchwork of colors that dance in|\n" +
+                                                          "|the dim lighting, stimulating your visual senses.                     |\n" +
+                                                          "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                      "|You approach the vanities, where makeup products are left in          |\n" +
+                                                      "|disarray—lipsticks, eyeshadows, and brushes hint at a rushed          |\n" +
+                                                      "|preparation. Amidst the clutter, you spot half-eaten food containers, |\n" +
+                                                      "|suggesting the presence of spoiled items.                             |\n" +
+                                                      "└──────────────────────────────────────────────────────────────────────┘");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Player: There must be spoiled food somewhere, and that's what's causing the stench.");
+                                    Console.ReadLine();
+                                    while (BackstageRoom == "c")
+                                    {
+                                        Console.WriteLine("┌──────────────────────────────────────────────────────────────────────┐\n" +
+                                                          "|Pushing past the smell, you notice a locked cabinet against the wall. |\n" +
+                                                          "|It is secured by a peculiar silver lock with a thin, circular hole,   |\n" +
+                                                          "|hinting at a unique key hidden within. You checked your inventory to  |\n" +
+                                                          "|see if there was a valuable key to use.                               |\n" +
+                                                          "└──────────────────────────────────────────────────────────────────────┘");
+                                        Console.ReadLine();
+                                        for (int z = 0; z < Inventory.Length; z++)
+                                        {
+                                            if (Inventory[z] == "")
+                                            {
+                                                continue;
+                                            }
+                                            Console.WriteLine(Inventory[z]);
+
+                                            if (Inventory[z] == "" && Inventory[z + 1] == "")
+                                            {
+                                                break;
+                                            }
+                                        }
+                                        Console.WriteLine("Select the right item that can be interacted (Write \"Back\" if you would like to return");
+                                        Console.Write("Action: ");
+                                        string CabinetInteraction = Console.ReadLine();
+                                        if (CabinetInteraction == "1966" && Inventory[17] != "")
+                                        {
+                                            Console.WriteLine("You discovered \"Quentin\'s Dead Body\" and \"Ferulle\"");
+                                            Inventory[22] = "> (1729) Quentin's Dead Body";
+                                            Inventory[23] = "> (9485) Ferulle";
+                                        }
+                                       else if (CabinetInteraction =="Back"||CabinetInteraction=="back")
+                                        {
+                                            Console.WriteLine("Returning back...");
+                                            break;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("It seems that item won't work... (Or you probably input the wrong number so try double checking)");
+                                        }
+                                    }
+                                }
+                                else if (BackstageRoom == "d")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Kindly input a choice mentioned above.");
+                                }
+                            }
                         }
                         else if (BackstageChoice == "b")
                         {
                             while (BackstageChoice == "b")
                             {
                                 Console.WriteLine("\nWhere would you like to go?");
-                                Console.WriteLine("a) Backstage\nb) Hallway\nc) Secret Passageway");
+                                Console.WriteLine("a) Backstage\nb) Hallway");
                                 Console.Write("\nAction: ");
                                 string BackstageSwitchRoom = Console.ReadLine();
 
@@ -1025,12 +2214,6 @@ namespace GameTest2
                                 {
                                     Console.WriteLine("\nHeading to Hallway...");
                                     room = 3;
-                                    break;
-                                }
-                                else if (BackstageSwitchRoom == "c") //unlocks when the player finds another key and some pliers. This will also trigger a limited dialogue
-                                {
-                                    Console.WriteLine("\nGoing to a passageway...");
-                                    room = 2;
                                     break;
                                 }
                                 else
@@ -1230,5 +2413,80 @@ namespace GameTest2
                   "╚══════════════════════════════════════════════════════════════════════╝");
 
         }
+        static void Empty()
+        {
+            Console.WriteLine("                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            " +
+                              "                                                                                                                                            ");
+        }               
+        static void LobbyPicture()
+        {
+            Console.WriteLine("╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n" +
+                              "║████                                    ████      ██                ████                ██      ████      ░░      ░░░░      ░░            ║\n" +
+                              "║████                                    ██░░██    ██                ████                ██    ██░░██      ░░    ██░░░░██    ░░            ║\n" +
+                              "║████                                    ██░░░░██  ██                                    ██  ██░░░░██      ██  ██  ░░░░  ██  ██            ║\n" +
+                              "║                                        ██  ░░░░████        ██      ████      ██        ████░░░░  ██        ████  ████  ████            ░░║\n" +
+                              "║████      ░░░░                          ██    ░░░░██      ░░░░      ░░░░      ░░░░      ██░░░░    ██            ██    ██                ██║\n" +
+                              "║░░░░      ░░░░                          ██      ░░██      ░░░░    ██░░░░██    ░░░░      ██░░      ██              ████                  ██║\n" +
+                              "║░░░░██    ░░░░                          ██        ██    ██  ██  ██  ░░░░  ██  ██  ██    ██        ██                                  ░░░░║\n" +
+                              "║░░░░  ██  ██  ██                        ██        ██      ██  ████  ████  ████  ██      ██        ██                                  ████║\n" +
+                              "║████  ████  ██                          ██        ██              ██    ██              ██        ██        ██            ██          ████║\n" +
+                              "║    ██                ████████          ██        ██                ████                ██        ██        ░░            ░░        ░░░░░░║\n" +
+                              "║████                ██      ████        ██        ██                                    ██        ██        ░░            ░░      ░░██████║\n" +
+                              "║                              ░░        ██        ██                                    ██        ██        ██            ██      ████████║\n" +
+                              "║                              ░░        ██        ██                                    ██        ██░░░░  ██  ░░░░░░░░░░░░  ██  ░░░░░░░░░░║\n" +
+                              "║████████████                ░░░░        ██        ██                                    ██        ██░░░░  ██  ████████████  ██  ░░░░░░░░░░║\n" +
+                              "║            ██              ██          ██        ██                                    ██        ██░░    ██  ████████████  ██    ░░░░░░░░║\n" +
+                              "║  ░░  ░░    ██            ██████████    ██░░      ██                                    ██      ░░██░░  ██  ░░░░░░░░░░░░░░░░  ██  ░░░░░░░░║\n" +
+                              "║    ░░      ██            ██      ░░    ██░░░░    ██                                    ██    ░░░░██░░  ██  ████████████████  ██  ░░░░░░░░║\n" +
+                              "║      ░░    ██            ████      ░░  ████░░░░  ██                                    ██  ░░░░████░░  ██  ████████████████  ██    ░░░░░░║\n" +
+                              "║            ██              ████    ░░  ██  ██░░░░██                                    ██░░░░██  ██  ██  ░░░░░░░░░░░░░░░░░░░░    ██  ░░░░║\n" +
+                              "║████████████  ████            ██        ██    ██░░██                                    ██░░██    ██  ██  ████████████████████  ██    ░░░░║\n" +
+                              "║            ██    ██  ████████████████  ██      ████                                    ████      ██  ██  ████████████████████  ██    ░░░░║\n" +
+                              "║            ██    ██    ██        ██    ██        ██                                    ██        ████  ░░░░░░░░░░░░░░░░░░░░░░░░  ██    ░░║\n" +
+                              "║            ██    ██    ██        ██    ██        ██                                    ██        ████  ████████████████████████  ██    ░░║\n" +
+                              "║██████████████    ██    ██        ██    ████████████                                    ██████████████  ████████████████████████  ██    ░░║\n" +
+                              "║            ██    ██      ████████    ██          ████████████████████████████████████████          ██                                    ║\n" +
+                              "║██████████████████                      ██████████                                        ██████████    ░░                    ░░          ║\n" +
+                              "║                                                                                                          ░░░░░░░░░░░░░░░░░░░░            ║\n" +
+                              "║░░░░░░░░░░░░░░░░░░░░░░░░                                                                                  ░░                ░░            ║\n" +
+                              "║                  ░░                                                                                      ░░  ░░░░░░░░░░░░  ░░            ║\n" +
+                              "║░░░░░░░░░░░░░░░░░░░░░░░░                                                                                  ░░  ░░        ░░  ░░            ║\n" +
+                              "║                  ░░                                                                                      ░░  ░░  ░░░░  ░░  ░░            ║\n" +
+                              "╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
+        }
+        
     }
 }
